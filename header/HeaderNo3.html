@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HeaderNo3</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.main {
+			width: 100%;
+			height: 630px;
+			margin: auto;
+			background-image: url(kk.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.navbar {
+			width: 90%;
+			height: 100px;
+			background-color: gray;
+			margin: auto;
+			position: relative;
+			top: 20px;
+			border-radius: 25px;
+			border: none;
+			opacity: .5;
+		}
+		.navbar1 {
+			width: 90%;
+			height: 100px;
+			/*background-color: white;*/
+			margin: auto;
+			position: relative;
+			top: -80px;
+			overflow: hidden;
+			border-radius: 25px;
+		}
+		.heading {
+			width: 315px;
+			height: 100%;
+			margin-left: 20px;
+			float: left;
+			/*background-color: darkred;*/
+		}
+		.heading h1 {
+			font-size: 35px;
+			margin-top: 10px;
+			font-size: 55px;
+			font-family: Brush Script MT;
+			color: #fc5e39;
+			border-bottom: 2px solid #fc5e39;
+		}
+		.list {
+			width: 60%;
+			height: 100%;
+			/*background-color: gray;*/
+			float: left;
+			position: relative;
+			left: 280px;
+			font-family: arial;
+		}
+		.list_in_div {
+			width: 100px;
+			height: 100px;
+			/*background-color: black;*/
+			text-align: center;
+			margin-left: 15px;
+			overflow: hidden;
+			float: left;
+		}
+		.list_in_div a {
+			text-decoration: none;
+			color: #fc5e39;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 25px;
+		}
+		.list_in_div a p {
+			margin-top: 35px;
+			border-bottom: 2px solid #fc5e39;
+		}
+		.hover_div {
+			width: 100%;
+			height: 102px;
+			background-color: yellow;
+			position: relative;
+			top: -210px;
+			transition: .5s;
+		}
+		.list_in_div:hover .hover_div {
+			top: -70px;
+		}
+		.hover_div a ion-icon {
+			font-size: 50px;
+			margin-top: 20px;
+			color: black;
+		}
+		.page1 {
+			width: 90%;
+			height: 500px;
+			/*background-color: #888;*/
+			position: relative;
+			top: -75px;
+			margin: auto;
+			transition: all 2s;
+		}
+		.page1 h1 {
+			text-align: left;
+			font-size: 100px;
+			position: relative;
+			top: 50px;
+			color: white;
+			font-family: arial;
+			text-shadow: 10px 5px black;
+		}
+		.page1 button {
+			width: 200px;
+			height: 60px;
+			background-color: gray;
+			border-radius: 50px;
+			border: none;
+			font-size: 25px;
+			color: white;
+			position: relative;
+			top: 100px;
+		}
+		.page1 button:hover {
+			background-color: black;
+			color: white;
+			transition: 3s;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="navbar"></div>
+		<div class="navbar1">
+			<div class="heading">
+				<h1>Computer Skilles</h1>
+			</div>
+			<div class="list">
+				<div class="list_in_div">
+					<a href="#home">
+						<p>Home</p>
+					</a>
+					<div class="hover_div">
+						<a href="#">
+							<ion-icon name="home-outline"></ion-icon>
+						</a>
+					</div>
+				</div>
+				<div class="list_in_div">
+					<a href="#home">
+						<p>Services</p>
+					</a>
+					<div class="hover_div">
+						<a href="#">
+							<ion-icon name="server-outline"></ion-icon>
+						</a>
+					</div>
+				</div>
+				<div class="list_in_div">
+					<a href="#home">
+						<p>Blog</p>
+					</a>
+					<div class="hover_div">
+						<a href="#">
+							<ion-icon name="earth-outline"></ion-icon>
+						</a>
+					</div>
+				</div>
+				<div class="list_in_div">
+					<a href="#home">
+						<p>Contant</p>
+					</a>
+					<div class="hover_div">
+						<a href="#">
+							<ion-icon name="call-outline"></ion-icon>
+						</a>
+					</div>
+				</div>
+				<div class="list_in_div">
+					<a href="#home">
+						<p>page</p>
+					</a>
+					<div class="hover_div">
+						<a href="#">
+							<ion-icon name="reorder-three-outline"></ion-icon>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page1">
+			<h1><i>CODING SOLUTION<br>POINT</i></h1>
+			<button>Know More</button>
+		</div>
+	</div>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
